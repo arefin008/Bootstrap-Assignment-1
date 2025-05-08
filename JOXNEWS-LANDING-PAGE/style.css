@@ -1,0 +1,110 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.hr {
+  padding-bottom: 10px;
+}
+
+/* hero-section */
+.hero-container {
+  margin-top: 40px;
+}
+.verticle-line-1 {
+  width: 1px;
+  height: 49px;
+  background-color: #6d6d6d;
+}
+.verticle-line-2 {
+  width: 1px;
+  height: 15px;
+  background-color: #6d6d6d;
+}
+.para {
+  margin-top: -4px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+/* Latest-news */
+.latest-news-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.latest-news-container h1 span {
+  color: #cf412b;
+  font-size: small;
+  margin-top: 25px;
+}
+
+/* Latest Blockchain */
+.latest-blockchain-container {
+  background-color: #cf412b;
+}
+
+.paragraph {
+  padding-top: 300px;
+}
+
+/* Editors pick */
+.Editors-pick-container {
+  margin-top: 120px;
+}
+
+/* Technology */
+.Technology-container {
+  margin-top: 120px;
+}
+.Technology-container h1 span {
+  color: #cf412b;
+  font-size: small;
+  margin-top: 25px;
+}
+
+/* <!-- Staff Writers --> */
+.staff-writers-container {
+  margin-top: 120px;
+}
+.staff-writers-container h1 span {
+  color: #cf412b;
+  font-size: small;
+  margin-top: 25px;
+}
+
+/* Articles & Resources */
+.articles-resources-container {
+  margin-top: 120px;
+}
+.viewAll {
+  color: #cf412b;
+  font-size: small;
+}
+
+/* stay informed */
+.stay-informed-container {
+  margin-top: 120px;
+}
+
+/* Podcast */
+.podcast-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.podcast-container h1 span {
+  color: #cf412b;
+  font-size: small;
+  margin-top: 25px;
+}
+
+@media (max-width: 780px) {
+  .navbar .form-control,
+  .cart {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .navbar input {
+    display: none;
+  }
+}

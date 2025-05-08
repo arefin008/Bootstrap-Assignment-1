@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- External Css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <div class="container pt-3 d-flex navbar">
+      <div class="d-flex w-50">
+        <img class="img-fluid" src="images/bar.png" alt="" />
+        <div class="input-group ms-2 w-50">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search countries"
+            aria-label="Recipient’s username"
+            aria-describedby="button-addon2"
+          />
+        </div>
+      </div>
+      <div class="w-25 mt-2">
+        <img class="img-fluid" src="images/company logo.png" alt="" />
+      </div>
+      <div class="d-flex justify-content-end w-25">
+        <p class="me-4 mt-2 cart">
+          Cart <span class="badge text-bg-danger rounded-pill">0</span>
+        </p>
+        <input
+          class="bg-black text-white py-2 px-3 rounded"
+          type="submit"
+          value="Subscribe"
+        />
+      </div>
+    </div>
+
+    <!-- navbar-options-->
+    <hr class="hr" />
+    <div class="container d-flex align-item-center justify-content-center">
+      <p class="me-3">Entertainment</p>
+      <p class="mx-3">Sports</p>
+      <p class="mx-3">Politics</p>
+      <p class="mx-3">Business</p>
+      <p class="mx-3">Technology</p>
+      <p class="ms-3">Health</p>
+    </div>
+    <hr />
+    <!-- Hero-section  -->
+    <div class="container hero-container">
+      <div class="row">
+        <div class="col-md-8">
+          <img class="img-fluid" src="images/hero-Background.png" alt="" />
+          <h2 class="lh-base my-3 w-75">
+            Global Climate Summit Yields Mixed Results on Key Agreements
+          </h2>
+          <!-- <div class="d-flex"> -->
+          <p class=".para w-75">
+            The global stock market has reached unprecedented levels, buoyed by
+            optimistic economic forecasts and strong corporate earnings.
+          </p>
+          <!-- <div class="verticle-line-1 mx-4"></div>
+            <img class="img-fluid" src="images/micle-brown.png" alt="" />
+          </div> -->
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex">
+            <img class="img-fluid" src="images/hero-1.png" alt="" />
+            <div class="ms-4">
+              <p class="w-75">
+                Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+              </p>
+
+              <div class="d-flex">
+                <p class="para">Technology</p>
+                <div class="verticle-line-2 mx-3"></div>
+                <p class="para">5 Min</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <div class="d-flex">
+            <img class="img-fluid" src="images/hero-2.png" alt="" />
+            <div class="ms-4">
+              <p class="w-75">
+                Stock Market Hits Record High Amid Economic Optimism
+              </p>
+
+              <div class="d-flex">
+                <p class="para">Business</p>
+                <div class="verticle-line-2 mx-3"></div>
+                <p class="para">8 Min</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <div class="d-flex">
+            <img class="img-fluid" src="images/hero-3.png" alt="" />
+            <div class="ms-4">
+              <p class="w-75">Health Innovations to Watch in 2024</p>
+
+              <div class="d-flex">
+                <p class="para">Health</p>
+                <div class="verticle-line-2 mx-3"></div>
+                <p class="para">7 Min</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <div class="d-flex">
+            <img class="img-fluid" src="images/hero-4.png" alt="" />
+            <div class="ms-4">
+              <p class="w-75">
+                New Regulations Put Tech Giants Under the Spotlight
+              </p>
+
+              <div class="d-flex">
+                <p class="para">Technology</p>
+                <div class="verticle-line-2 mx-3"></div>
+                <p class="para">6 Min</p>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest News  -->
+    <div class="container latest-news-container">
+      <h1 class="my-4 d-flex justify-content-between">
+        Latest News
+        <span>View All <i class="fa-solid fa-arrow-right"></i></span>
+      </h1>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            class="img-fluid"
+            src="images/Latest-news-Background.png"
+            alt="Latest-news-Background"
+          />
+          <div class="d-flex mt-3">
+            <p class="para">Politics</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">8 Min</p>
+          </div>
+          <p class="h5 w-100 lh-sm">
+            Global Summit 2024: Leaders Address Climate, Trade, and Security
+            Challenges
+          </p>
+        </div>
+        <div class="col-md-3">
+          <div>
+            <img class="img-fluid" src="images/latest-news-1.png" alt="" />
+            <div class="d-flex mt-3">
+              <p class="para">Technology</p>
+              <div class="verticle-line-2 mx-3"></div>
+              <p class="para">5 Min</p>
+            </div>
+            <p>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</p>
+          </div>
+          <hr />
+
+          <div>
+            <img class="img-fluid" src="images/latest-news-2.png" alt="" />
+            <div class="d-flex mt-3">
+              <p class="para">Health</p>
+              <div class="verticle-line-2 mx-3"></div>
+              <p class="para">5 Min</p>
+            </div>
+            <p>The Role of Fitness in Chronic Disease Management</p>
+          </div>
+          <hr />
+        </div>
+        <div class="col-md-3">
+          <div>
+            <img class="img-fluid" src="images/latest-news-3.png" alt="" />
+            <div class="d-flex mt-3">
+              <p class="para">Technology</p>
+              <div class="verticle-line-2 mx-3"></div>
+              <p class="para">5 Min</p>
+            </div>
+            <p>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</p>
+          </div>
+          <hr />
+
+          <div>
+            <img class="img-fluid" src="images/latest-news-4.png" alt="" />
+            <div class="d-flex mt-3">
+              <p class="para">Health</p>
+              <div class="verticle-line-2 mx-3"></div>
+              <p class="para">5 Min</p>
+            </div>
+            <p>The Role of Fitness in Chronic Disease Management</p>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <!-- Latest Blockchain -->
+    <div class="container-fluid latest-blockchain-container">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4 text-white paragraph">
+            <p class="w-75 h4">
+              Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+            </p>
+            <hr />
+            <p class="w-75">
+              Smart city initiatives are leveraging AI, IoT, and data analytics
+              to create sustainable  spaces.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <img src="images/Latest-blockchain.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Editors pick -->
+    <div class="container Editors-pick-container">
+      <h2 class="my-4">Editors Pick</h2>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <h2 class="h4 w-75">
+            5G Expansion: What It Means for Consumers and Businesses
+          </h2>
+          <hr />
+          <p class="w-75 text-secondary">
+            From faster downloads to smarter cities, 5G is reshaping global
+            connectivity.
+          </p>
+        </div>
+        <div class="col-md-8">
+          <img
+            class="img-fluid"
+            src="images/Editors_pick_Background.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/Editors_pick-1.png" alt="" />
+          <div class="d-flex mt-3">
+            <p class="para">Sports</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">13 Min</p>
+          </div>
+          <p class="w-75">
+            Cricket World Cup: Highlights from an Action- Packed Week
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/Editors_pick-2.png" alt="" />
+          <div class="d-flex mt-3">
+            <p class="para">Technology</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">9 Min</p>
+          </div>
+          <p class="w-75">
+            Exploring the Future of Space Exploration Beyond Mars
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/Editors_pick-3.png" alt="" />
+          <div class="d-flex mt-3">
+            <p class="para">Technology</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">6 Min</p>
+          </div>
+          <p class="w-75">
+            The Science of Sleep: How to Rest Better in a 24/7 World
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technology -->
+    <div class="container Technology-container">
+      <h1 class="my-4 d-flex justify-content-between">
+        Technology
+        <span>View All <i class="fa-solid fa-arrow-right"></i></span>
+      </h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/Technology-1.png" alt="" />
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/Technology-2.png" alt="" />
+          <div class="d-flex mt-3">
+            <p class="para">Technology</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">6 Min</p>
+          </div>
+          <p class="w-75">
+            The Science of Sleep: How to Rest Better in a 24/7 World
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/Technology-3.png" alt="" />
+          <div class="d-flex mt-3">
+            <p class="para">Technology</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">6 Min</p>
+          </div>
+          <p class="w-75">
+            The Science of Sleep: How to Rest Better in a 24/7 World
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Staff Writers -->
+    <div class="container staff-writers-container">
+      <h1 class="my-4 d-flex justify-content-between">
+        Staff Writers
+        <span>View All <i class="fa-solid fa-arrow-right"></i></span>
+      </h1>
+      <div class="row">
+        <div class="col-md-3">
+          <img class="img-fluid" src="images/staff-writter-1.png" alt="" />
+          <h6 class="fw-bold mt-3">Ethan Collins</h6>
+          <p class="text-secondary">Senior Writer</p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="img-fluid" src="images/staff-writter-2.png" alt="" />
+          <h6 class="fw-bold mt-3">Sofia Ramirez</h6>
+          <p class="text-secondary">Author</p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="img-fluid" src="images/staff-writter-3.png" alt="" />
+          <h6 class="fw-bold mt-3">Laura Bennett</h6>
+          <p class="text-secondary">Editorialist</p>
+        </div>
+
+        <div class="col-md-3">
+          <img class="img-fluid" src="images/staff-writter-4.png" alt="" />
+          <h6 class="fw-bold mt-3">Michael Brown</h6>
+          <p class="text-secondary">Content Writer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Articles & Resources -->
+    <div class="container articles-resources-container">
+      <h1 class="my-4">Articles & Resources</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex mt-3">
+            <p class="para">Technology</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">December 16,2024</p>
+          </div>
+          <p class="w-75 h5 lh-sm">
+            5 Cutting-Edge Technologies in Education Transforming How We Learn
+          </p>
+          <div class="viewAll mt-4">
+            View All <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid"
+            src="images/Articles & Resources-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex mt-3">
+            <p class="para">Health</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">December 16,2024</p>
+          </div>
+          <p class="w-75 h5 lh-sm">
+            How AI is Revolutionizing Healthcare: Improving Diagnostics and
+            Patient Care
+          </p>
+          <div class="viewAll mt-4">
+            View All <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid"
+            src="images/Articles & Resources-2.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex mt-3">
+            <p class="para">Business</p>
+            <div class="verticle-line-2 mx-3"></div>
+            <p class="para">December 16,2024</p>
+          </div>
+          <p class="w-75 h5 lh-sm">
+            The Rise of Remote Work: The Shift to Flexible Work Environments
+          </p>
+          <div class="viewAll mt-4">
+            View All <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid"
+            src="images/Articles & Resources-3.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <!-- stay informed -->
+    <div class="container stay-informed-container">
+      <img src="images/stay-informed.png" alt="" class="img-fluid" />
+    </div>
+
+    <!-- Podcast -->
+    <div class="container podcast-container">
+      <h1 class="my-4 d-flex justify-content-between">
+        Podcast
+        <span>View All <i class="fa-solid fa-arrow-right"></i></span>
+      </h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/podcast-1.png" alt="" />
+          <h6 class="fw-bold mt-3">Ethan Collins</h6>
+          <p class="text-secondary">Senior Writer</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/podcast-2.png" alt="" />
+          <h6 class="fw-bold mt-3">Sofia Ramirez</h6>
+          <p class="text-secondary">Author</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/podcast-3.png" alt="" />
+          <h6 class="fw-bold mt-3">Laura Bennett</h6>
+          <p class="text-secondary">Editorialist</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="container-fluid text-white bg-black">
+      <div class="container pt-5">
+        <div class="row d-flex pt-5 pb-3">
+          <div class="col-md">
+            <img
+              src="images/footer-logo.png"
+              alt="footer-logo"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md mt-3">
+            <div class="container d-flex align-item-center justify-content-end">
+              <p class="me-3">Entertainment</p>
+              <p class="mx-3">Sports</p>
+              <p class="mx-3">Politics</p>
+              <p class="mx-3">Business</p>
+              <p class="mx-3">Technology</p>
+              <p class="ms-3">Health</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="py-5" />
+
+        <div class="row">
+          <div class="col-md-5">
+            <p class="h5 w-75 lh-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor dfddfh
+            </p>
+            <div class="row pt-5">
+              <div class="col-md-4">
+                <img class="img-fluid" src="images/footer-img-1.png" alt="" />
+              </div>
+              <div class="col-md-4">
+                <img class="img-fluid" src="images/footer-img-2.png" alt="" />
+              </div>
+              <div class="col-md-4">
+                <img class="img-fluid" src="images/footer-img-3.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 offset-2 pt-4">
+            <div class="row">
+              <div class="col-md-4">
+                <p class="text-secondary pb-2">Pages</p>
+                <p>About Us</p>
+                <p>News</p>
+                <p>Authors</p>
+                <p>Podcast</p>
+                <p>Contact Us</p>
+              </div>
+              <div class="col-md-8">
+                <p class="text-secondary pb-2">Contact Us</p>
+                <p>
+                  <a
+                    class="text-decoration-none text-white"
+                    href="mailto:arefinrounok@gmail.com"
+                    >arefinrounok@gmail.com</a
+                  >
+                </p>
+                <p>+91123-456-7890</p>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5" />
+
+        <div>
+          <div class="row">
+            <div class="col-md-8">
+              <p>
+                &copy2025 Joxnews
+                <span class="ms-4">Work by Onmix. Made with Webflow</span>
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <p>
+                Style Guide
+                <span class="ps-4"
+                  >Change log
+                  <img
+                    class="img-fluid ps-4"
+                    src="images/Download -temp.png"
+                    alt=""
+                /></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
