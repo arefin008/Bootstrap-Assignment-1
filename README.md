@@ -1,4 +1,4 @@
-Task-1: manufacturing-industry-landing-page using Bootstrap
+Task-1: manufacturing-industry-landing-page using Bootstrap\
 Live Link1: https://arefin008.github.io/Bootstrap-Assignment-1/
 
 
