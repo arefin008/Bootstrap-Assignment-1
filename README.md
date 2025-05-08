@@ -7,6 +7,7 @@ A professional and responsive landing page tailored for a manufacturing business
 Built using Bootstrap 5 to ensure mobile-friendly layout and reusable components.
 
 Live Link1: https://arefin008.github.io/Bootstrap-Assignment-1/
+
 Live Link2: https://manufacturing-industry-landing-page.netlify.app/
 
 📰 Task 2: JOXNEWS Landing Page\
